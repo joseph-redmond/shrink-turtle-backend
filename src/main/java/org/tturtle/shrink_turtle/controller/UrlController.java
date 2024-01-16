@@ -32,7 +32,7 @@ import jakarta.servlet.http.HttpServletResponse;
 //CORS stands for Cross-Origin Resource Sharing, 
 //and is a mechanism that allows resources on a web page to be requested from another domain outside their own domain.
 
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"https://shrink.tturtle.org, http://localhost:4200"})
 @RestController
 public class UrlController {
 
